@@ -24,8 +24,8 @@ def normalize_graph(A):
 
 
 def load(args):
-    imagelist = os.listdir('/home/myj/code/Machine-leaning-in-action/multiplex/ourcode/FTD/')
-    basedir = os.path.dirname('/home/myj/code/Machine-leaning-in-action/multiplex/ourcode/FTD/')
+    imagelist = os.listdir('/datapath/')
+    basedir = os.path.dirname('/datapath/')
     if args.dataset == 'FDT':
         datadir1 = os.path.join(basedir, imagelist[0])
         datadir2 = os.path.join(basedir, imagelist[1])
